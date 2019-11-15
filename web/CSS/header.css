@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2019, 11:00:06 PM
+    Author     : Intel
+*/
+
+
+.header {
+    border-top: 0px solid #0073d2;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    background: #0073d2;
+    font-family: "Veneer",Arial,Tahoma,sans-serif;
+}
+.header-web {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.header-web ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    width: 60%;
+    list-style:none;
+}
+
+.lista-header li {
+    font-size: 15px;
+    padding: 0 20px;
+    color: #fff;
+    
+}
+
+.donar{
+    border-radius: 5px;
+    background-color: #f1c400;
+    padding: 10px 20px;
+    color: #0072ce;
+    font-size: 20px;
+    margin-left: auto;
+  
+}
+.amarillo2:hover{
+    
+   background-color: #f1c400;
+        border-radius: 200px;
+
+}
+.amarillo2{
+  
+     border-radius: 200px;
+     color: #fff;
+       font-size: 20px;
+       padding: 20px 40px;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.miniimage{
+    width: 150PX;
+    height: 150PX;
+
+}
+
+
+.cuerpo_imagen{
+    width: 100%;
+    height: 90%;
+
+}
+.fondo{
+       background: #0073d2;
+}
+
+.bloque_blanco{
+    background: white;
+    height: 400px;
+}
+
+.newspaper {
+  -webkit-column-count: 3; 
+  -moz-column-count: 3; 
+  column-count: 3;
+}
+
+.texto_1{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 25px 0 15px;
+}
+
+.texto_2{
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    display: block;
+    font-family: "veneer";
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+}
+
+.grid-container-2{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-container_5{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 0px;
+}
+
+.grid_item {
+
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.texto_3{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    display: block;
+    font-family: "veneer";
+}
+.texto_4{
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    display: block;
+    font-family: "veneer";
+}
+
+.blue{
+    color: #0073d2;
+}
+
+.amarillo{
+    color:#f1c400;
+}
+
+.white{
+    
+    color:#fff;
+}
+.donars{
+    border-radius: 5px;
+    background-color: #f1c400;
+    padding: 10px 20px;
+    color: #0072ce;
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+.bloque_azul{
+   background: #0073d2;
+    height:400px;
+}
+.bloque_azul2{
+    background: #0067B9;
+    height: 650px;
+    
+}
+
+.bloque_verde{
+   background: #4ACB8D;
+    height: 400px;
+}
+
+.bloque_white{
+    background: #fff;
+    height: 500px;
+}
+
+
+.rectangulo_amarillo{
+   background-color:#f1c400;
+   width: 500px;
+   height: 200px;
+   margin-left: 20%;
+}
+
+.espacio{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+padding-top: 20px;    
+}
+
+.bajar{
+    padding-top: 60px;
+}
